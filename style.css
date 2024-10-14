@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(152, 152, 231);
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.logo {
+  margin: 13px 55px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+ul li {
+  margin: 13px 65px;
+  font-size: larger;
+  font-weight: 500;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+}
+ul li a:hover{
+  background-color: black;
+ 
+  border-radius: 16px;
+}
+.search {
+  width: 200px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 30px;
+}
+.search input {
+  width: 200px;
+  height: 36px;
+  position: absolute;
+  border-radius: 30px;
+  border: none;
+  padding: 6px;
+}
+.search svg {
+  width: 13px;
+  position: absolute;
+  margin-right: 18px;
+}
+.menu {
+  margin-right: 13px;
+  width: 66px;
+}
+.container {
+  margin-top: 5%;
+  width: 100%;
+  height: 180vh;
+  position: absolute;
+}
+.chatbox {
+  background-color: rgb(234, 225, 225);
+  border-radius: 26px;
+  padding: 9px;
+  position: fixed;
+  right: 66px;
+  bottom: 3px;
+  display: flex;
+}
+.soio {
+  width: 100px;
+  height: 200px;
+  position: sticky;
+  float: right;
+  right: 6px;
+  top: 60px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.soio .sm {
+  border: 2px solid black;
+  margin: 3px;
+  border-radius: 9px;
+}
+.cards {
+  width: 80%;
+  height: 50vh;
+  margin: 45px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cards .card1 img {
+  width: 325px;
+  height: 325px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.796);
+
+}
+.card2 textarea {
+  border-radius: 20px;
+  background-color: rgba(169, 167, 213, 0.732);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.796);
+
+}
+.boxes {
+  width: 1300px;
+  height: 25vh;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.boxes .box {
+  background-color: aquamarine;
+  height: 18vh;
+  width: 250px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.796);
+  
+}
+.boxes .box p {
+  margin: 6px 26px;
+}
+.pol {
+  margin-top: 60px;
+
+}
+#box1 {
+  background-color: rgb(153, 206, 226);
+}
+#box2 {
+  background-color: rgb(109, 109, 223);
+}
+#box3 {
+  background-color: rgb(185, 145, 223);
+}
+#box4 {
+  background-color: black;
+}
+
+.information {
+  width: 70%;
+  height: 60vh;
+  border: 2px solid greenyellow;
+  background-color: blue;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+}
+.button button {
+  background-color: white;
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  margin: 20px 0px;
+  border-radius: 26px;
+  font-size: 1.5em;
+  font-weight: 500;
+  border: 4px solid white;
+  color: white;
+  background-color: blue;
+}
+.btn button:hover {
+  background-color: rgb(86, 235, 235);
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+
+.info {
+  height: 91%;
+  width: 60%;
+  background-color: white;
+  border-radius: 36px;
+}
+.info h1 {
+  text-align: l;
+}
+.info p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 26px 26px;
+}
+.gol {
+  margin: 36px;
+  color: rgb(49, 49, 105);
+}
+.next {
+  float: right;
+  margin-right: 36px;
+  width: 130px;
+  height: 50px;
+  border-radius: 9px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.next:hover {
+  cursor: pointer;
+  
+}
+ul .licon a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
